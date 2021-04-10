@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Rational.fs" />
+    <Compile Include="PrimitiveFunctions.fs" />
+    <Compile Include="Expression.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="HMType.fs" />
+    <Compile Include="UnionFind.fs" />
+    <Compile Include="Timing.fs" />
+    <Compile Include="WeightComputation.fs" />
+    <Compile Include="CommandLineParser.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>

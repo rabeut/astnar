@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Timing.fs" />
+    <Compile Include="PrimitiveFunctions.fs" />
+    <Compile Include="Expression.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="HMType.fs" />
+    <Compile Include="Semantics.fs" />
+    <Compile Include="Linear.fs" />
+    <Compile Include="RandomWalk.fs" />
+    <Compile Include="SystemCall.fs" />
+    <Compile Include="GenerateOutput.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
