@@ -1,6 +1,6 @@
-# Lower Bound Computation and AST Verification of Probabilistic Programs with Continuos Distributions
+# Lower Bound Computation and AST Verification of Probabilistic Programs with Continuous Distributions
 
-This folder contains prototype implementations for computing lower bounds on the probability of termination and for verification of almost-sure termination (AST) of probabilistic functional programs with continuos distributions as presented in [1].
+This folder contains prototype implementations for computing lower bounds on the probability of termination and for verification of almost-sure termination (AST) of probabilistic functional programs with continuous distributions as presented in [1].
 
 This folder contains two tools:
 - LowerBound, which computes lower bounds on the termination probability of probabilistic programs (see Sections 3 and 4, [1]), located in the `./lowerbound` subfolder.

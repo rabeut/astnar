@@ -26,7 +26,7 @@ In order to build this project you require the .NET 5 SDK (tested with Version 5
 To build the project run `dotnet build -c "Release"` in the same folder the `LowerBound.fsproj` file is located.
 The executable `LowerBound` can be found in `./tool/bin/Release/net5`.
 
-Th command line arguments for the tool are given in the "Command Line Arguments" section below. 
+The command line arguments for the tool are given in the "Command Line Arguments" section below. 
 As an initial example, if we wish to analyse the AST behavior of the term `(fix f x. if sample - 0.5 then x else f x) 0` up to depths 50 with the predefined precision, run `./LowerBound -i "(fix f x. if sample - 0.5 then x else f x) 0" -d 50`. The expected output should be (similar to):
 
 > You have not specified a precision. We use the default value of 0.0001
